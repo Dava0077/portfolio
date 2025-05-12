@@ -1,0 +1,72 @@
+/* Paleta colores */
+:root {
+    --primary-color: #007BFF;
+    --secondary-color: #6C757D;
+    --background-color: #F8F9FA;
+    --text-color: #212529;
+}
+
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* Encabezado */
+header {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* Títulos de sección */
+h2 {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+/* Cartas de proyecto */
+.card {
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+/* Enlaces */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* Listas de habilidades */
+.list-group-item {
+    border: none;
+    background-color: transparent;
+}
+
+/* Imagen de proyecto */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .card-title {
+        font-size: 1.3rem;
+    }
+}
